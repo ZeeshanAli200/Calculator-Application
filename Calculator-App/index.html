@@ -1,0 +1,123 @@
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>CalculatorApp</title>
+   <link rel="stylesheet" href="css/bootstrap.css">
+   <link rel="stylesheet" href="js/bootstrap.js">
+   <link rel="stylesheet" href="cal.css">
+
+</head>
+
+<body>
+   <div style="height: 510px;" class="container bg-dark">
+      <div class="row">
+         <div class="col-sm-12 col-lg-12 col-md-12">
+            <h1 style="text-align: center;color: white;">Calculator</h1>
+         </div>
+
+      </div>
+
+      <div class="row">
+         <div class="col-sm-12 col-lg-12 col-md-12 m-0 p-0">
+            <input placeholder="0" id="result" style="height: 50px;" type="text" class="form-control bg-light"
+               aria-label="Sizing example input" aria-describedby="inputGroup-sizing-default">
+         </div>
+
+      </div>
+
+
+      <div style="margin-top: 2px;" class="row">
+
+         <div style="margin-top: 3px;" class="col-6 p-0">
+            <button onclick="clr()" style="outline: none;" class="click5">C</button>
+         </div>
+         <!-- <div style="margin-top: 3px;" class="col-3 p-0">
+               <button onclick="getNum('Math.sqrt')" style="outline: none;" class="click2">√</button>    
+            </div> -->
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button onclick="getNum('**')" style="outline: none;" class="click2">x&sup2;</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" onclick="getNum('/')" class="click3">/</button>
+         </div>
+
+
+      </div>
+
+      <div class="row">
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('7')">7</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('8')">8</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('9')">9</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click3" onclick="getNum('*')">x</button>
+         </div>
+
+
+      </div>
+
+      <div class="row">
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('4')">4</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('5')">5</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('6')">6</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click3" onclick="getNum('-')">-</button>
+         </div>
+
+
+      </div>
+
+      <div class="row">
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('1')">1</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('2')">2</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('3')">3</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click3" onclick="getNum('+')">+</button>
+         </div>
+
+
+      </div>
+      <div class="row">
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('0')">0</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-3 p-0">
+            <button style="outline: none;" class="click2" onclick="getNum('.')">.</button>
+         </div>
+         <div style="margin-top: 3px;" class="col-6 p-0">
+            <button onclick="getResult()" style="outline: none;" class="click4">=</button>
+         </div>
+
+
+      </div>
+
+   </div>
+
+
+
+
+
+
+   <script src="cal.js"></script>
+</body>
+
+</html>

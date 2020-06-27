@@ -1,0 +1,63 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    outline: none;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.click2 {
+    height: 70px;
+    border: none;
+    outline: none;
+    width: 99%;
+    border-radius: 3%;
+    background-color: #2196F3;
+    color: white;
+}
+
+.click3 {
+    height: 70px;
+    border: none;
+    outline: none;
+    width: 99%;
+    border-radius: 3%;
+    background-color: #0D47A1;
+    color: white;
+}
+
+.click5 {
+    height: 70px;
+    border: none;
+    outline: none;
+    width: 99%;
+    border-radius: 3%;
+    background-color: lightcoral;
+    color: black;
+}
+
+.click5:active {
+    background-color: #666;
+}
+
+.click4 {
+    height: 70px;
+    border: none;
+    outline: none;
+    width: 99%;
+    border-radius: 3%;
+    background-color: green;
+    color: black;
+}
+
+.click4:active {
+    background-color: #666;
+}
+
+.click2:active {
+    background-color: #666;
+}
+
+.click3:active {
+    background-color: #666;
+}
